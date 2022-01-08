@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'SANJUGotgam';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/SANJUGotgam.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+*  {
+	font-family: 'Noto Sans KR', sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	font-family: 'Noto Sans KR', sans-serif;
+	/* font-family: 'SF_HambakSnow', serif; */
+	width: 100%;
+	height:100%;
+/* 	height: 640px; */
+}
+
+
+header {
+/*   position: fixed;  고정 */ 
+/*   background-color: #6937a1; */
+	background-color: #3f485c;
+  	/* opacity : 0.7; */
+  	width: 100%;
+  	padding: 30px;
+  	z-index: 9999;
+}
+
+
+.logo {
+    height: auto;
+    display: inline-block;
+    /* font-family: 'SF_HambakSnow', serif; */
+    font-family: 'SANJUGotgam';
+    text-decoration: none;
+    font-weight: 900;
+    color: #fff;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 2em;
+    background: linear-gradient(to right, #ccff02, #ff04ec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav {
+	/* font-family: 'SF_HambakSnow', serif; */
+	font-family: 'Noto Sans KR', sans-serif;
+	float: right; 
+}
+
+nav ul {
+  	font-size: 0;
+  	color : #fff;
+}
+
+nav li {
+  font-size: 24px;
+  font-weight: bold;
+
+  display: inline-block;
+  margin-left: 30px;
+/*   opacity: 0.7; */
+
+}
+
+nav li a {
+  	color: #fff;
+	text-align: none;
+	text-decoration: none;
+}
+
+footer {
+	/* footer 고정  */
+	/* position: absolute; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	text-align: center;
+	padding: 50px 0 50px 0;
+	background-color: #b076b7;
+	color: #fff;
+	width: 100%;
+/* 	margin-top: 70px; */
+}
