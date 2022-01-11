@@ -25,7 +25,7 @@
 	}
 	// 로그인 되어 있는 아이디를 읽어옴
 	RentDAO rdao = new RentDAO();
-	// 몇개 인지 모르므로 벡터로 가져옴
+	// 몇개 인지 모르므로 ArrayList로 가져옴
 	ArrayList<ReserveViewBean> list = rdao.getAllReserve(id);
 
 	
